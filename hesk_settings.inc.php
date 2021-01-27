@@ -5,28 +5,28 @@
 
 // --> General settings
 $hesk_settings['site_title']='Website';
-$hesk_settings['site_url']='http://www.example.com';
+$hesk_settings['site_url']='http://ra.k8s-13.sa';
 $hesk_settings['hesk_title']='Help Desk';
-$hesk_settings['hesk_url']='http://www.example.com/helpdesk';
-$hesk_settings['webmaster_mail']='support@example.com';
+$hesk_settings['hesk_url']='http://ra.k8s-13.sa';
+$hesk_settings['webmaster_mail']='maildrop@mail.ru';
 $hesk_settings['noreply_mail']='support@example.com';
 $hesk_settings['noreply_name']='Help Desk';
 $hesk_settings['site_theme']='hesk3';
 
 // --> Language settings
-$hesk_settings['can_sel_lang']=0;
+$hesk_settings['can_sel_lang']=1;
 $hesk_settings['language']='English';
 $hesk_settings['languages']=array(
 'English' => array('folder'=>'en','hr'=>'------ Reply above this line ------'),
 );
 
 // --> Database settings
-$hesk_settings['db_host']='localhost';
-$hesk_settings['db_name']='hesk';
-$hesk_settings['db_user']='test';
-$hesk_settings['db_pass']='test';
+$hesk_settings['db_host']='mysql';
+$hesk_settings['db_name']='hesk_db';
+$hesk_settings['db_user']='hesk_user';
+$hesk_settings['db_pass']='hesk_password';
 $hesk_settings['db_pfix']='hesk_';
-$hesk_settings['db_vrsn']=0;
+$hesk_settings['db_vrsn']=1;
 
 
 // ==> HELP DESK
@@ -66,14 +66,14 @@ $hesk_settings['select_pri']=0;
 $hesk_settings['cat_show_select']=15;
 
 // --> SPAM Prevention
-$hesk_settings['secimg_use']=1;
+$hesk_settings['secimg_use']=0;
 $hesk_settings['secimg_sum']='13N4BRS4WW';
 $hesk_settings['recaptcha_use']=0;
 $hesk_settings['recaptcha_public_key']='';
 $hesk_settings['recaptcha_private_key']='';
 $hesk_settings['question_use']=0;
-$hesk_settings['question_ask']='Type <i>PB6YM</i> here to fight SPAM:';
-$hesk_settings['question_ans']='PB6YM';
+$hesk_settings['question_ask']='Are you a human? (yes or no)';
+$hesk_settings['question_ans']='yes';
 
 // --> Security
 $hesk_settings['attempt_limit']=6;
