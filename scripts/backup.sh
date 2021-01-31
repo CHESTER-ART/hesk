@@ -12,7 +12,7 @@ backup_files="/mnt/nfs/html /mnt/nfs/sqldata"
 dest="/mnt/nfs/backup"
 
 # Create archive filename.
-day=$(date +%A)
+day=$(date '+%Y%m%d%H%M%S')
 hostname=$(hostname -s)
 archive_file="$hostname-$day.tgz"
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /mnt/nfs/html/
 git add --all
 git commit -m "auto git_push_to_repo"
-git push https://github.com/CHESTER-ART/hesk master
+git push HESK
