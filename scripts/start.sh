@@ -10,7 +10,7 @@ apt-get install openjdk-8-jdk -y
 apt-get install git -y
 apt-get install maven -y
 # working with git repo
-cd..
+cd /mnt/nfs/html
 git init
 git remote add HESK https://github.com/CHESTER-ART/hesk
 git fetch HESK
